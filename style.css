@@ -1,0 +1,80 @@
+body{
+  font-family: URW Gothic L, sans-serif ;
+  margin-left: 20px;
+  background-image: url(bg.jpg);
+    color: #448c9f;
+}
+
+fieldset{
+  border: solid 1px teal;
+  border-radius: 3px;
+}
+
+h1{
+  font-family: URW Gothic L, sans-serif ;
+  text-align: center;
+}
+
+h2{
+  text-decoration: none;
+}
+
+textarea{
+  width: 460px;
+  min-width: 200px;
+  max-width: 469px;
+  min-height: 50px;
+  max-height: 100px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+img.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.afaire{
+   background-color: rgba(179, 230, 255, 0.5);
+}
+.archives{
+
+  background-color: rgba(179, 230, 255, 0.5);
+}
+
+.bouton{
+    background-color: #e7e7e7;
+    color: #448c9f;
+    border: solid lightgray 2px;
+    border-radius: 2px;
+    padding: 10px 25px;
+    margin-left: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+}
+.bouton-none{
+  display: none;
+}
+.contenu{
+  width: 500px;
+  margin: auto;
+}
+
+.erreur{
+  margin-left: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+.souligne{
+  text-decoration: none;
+}
+.tache{
+  background-color: rgba(179, 230, 255, 0.5);
+}
